@@ -1,0 +1,22 @@
+ATUR            a+t a-t+u t-u+r u-r sp
+BESAR           b+e b-e+s e-s+a s-a+r a-r sp
+BIRU            b+i b-i+r i-r+u r-u sp
+DUA             d+u d-u+a u-a sp
+EMPAT           e+m e-m+p m-p+a p-a+t a-t sp
+GAMBAR          g+a g-a+m a-m+b m-b+a b-a+r a-r sp
+HAPUS           h+a h-a+p a-p+u p-u+s u-s sp
+HIJAU           h+i h-i+j i-j+aw j-aw sp
+KECIL           k+e k-e+c e-c+i c-i+l i-l sp
+KOTAK           k+o k-o+t o-t+a t-a+k a-k sp
+LIMA            l+i l-i+m i-m+a m-a sp
+LINGKARAN       l+i l-i+ng i-ng+k ng-k+a k-a+r a-r+a r-a+n a-n sp
+MERAH           m+E m-E+r E-r+a r-a+h a-h sp
+SATU            s+a s-a+t a-t+u t-u sp
+SEGITIGA        s+e s-e+g e-g+i g-i+t i-t+i t-i+g i-g+a g-a sp
+SEMAKIN         s+e s-e+m e-m+a m-a+k a-k+i k-i+n i-n sp
+SENT-END        sil
+SENT-START      sil
+TAMPILAN        t+a t-a+m a-m+p m-p+i p-i+l i-l+a l-a+n a-n sp
+TIGA            t+i t-i+g i-g+a g-a sp
+TRAPESIUM       t+r t-r+a r-a+p a-p+e p-e+s e-s+i s-i+u i-u+m u-m sp
+WARNAI          w+a w-a+r a-r+n r-n+a n-a+i a-i sp

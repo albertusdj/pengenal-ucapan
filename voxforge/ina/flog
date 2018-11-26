@@ -1,0 +1,39 @@
+WARNING: no script file ../lexicon/dictionary.txt.ded
+
+Dictionary Usage Statistics
+---------------------------
+  Dictionary    TotalWords WordsUsed  TotalProns PronsUsed
+dictionary.t        22         22         22         22
+    dict-tri        22         22         22         22
+
+22 words required, 0 missing
+
+New Phone Usage Counts
+---------------------
+  1. a     :    21
+  2. t     :     8
+  3. u     :     6
+  4. r     :     8
+  5. sp    :    20
+  6. b     :     3
+  7. e     :     6
+  8. s     :     6
+  9. i     :    12
+ 10. d     :     1
+ 11. m     :     7
+ 12. p     :     4
+ 13. g     :     4
+ 14. h     :     3
+ 15. j     :     1
+ 16. aw    :     1
+ 17. k     :     5
+ 18. c     :     1
+ 19. l     :     4
+ 20. o     :     1
+ 21. ng    :     1
+ 22. n     :     4
+ 23. E     :     1
+ 24. sil   :     2
+ 25. w     :     1
+
+Dictionary dict-tri created

@@ -1,0 +1,48 @@
+% NS_B
+<s>  sil
+
+% NS_E
+</s> sil
+
+% DRAW_V
+GAMBAR g a m b a r
+
+% ZOOM1_V
+ATUR a t u r
+
+% ZOOM2_V
+TAMPILAN t a m p i l a n
+
+% ZOOM3_V
+SEMAKIN s e m a k i n
+
+% SCALE_N
+KECIL k e c i l
+BESAR b e s a r
+
+% FILL_V
+WARNAI w a r n a i
+
+% ERASE_V
+HAPUS h a p u s
+
+% SHAPE_N
+LINGKARAN  l i ng k a r a n
+KOTAK  k o t a k
+SEGITIGA  s e g i t i g a
+TRAPESIUM t r a p e s i u m
+
+% DIGIT
+SATU  s a t u
+DUA 	d u a
+TIGA  t i g a
+EMPAT	e m p a t
+LIMA	l i m a
+
+% COLOR_N
+MERAH  m E r a h
+HIJAU	h i j aw
+BIRU  b i r u
+
+
+

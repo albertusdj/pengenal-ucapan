@@ -1,0 +1,439 @@
+HVite -A -D -T 1 -l * -o SWT -b SENT-END -C config_train -H hmm7/macros -H hmm7/hmmdefs -i aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I words.mlf -S train.scp dict monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 25 physical / 25 logical HMMs
+Label file will be used to align each file
+Aligning File: ../train_ina/mfcc/Alvin_S0001.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR SATU LINGKARAN SENT-END  ==  [258 frames] -59.4060 [Ac=-15326.7 LM=0.0] (Act=9.3)
+Aligning File: ../train_ina/mfcc/Alvin_S0002.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR DUA LINGKARAN SENT-END  ==  [274 frames] -57.4352 [Ac=-15737.2 LM=0.0] (Act=8.4)
+Aligning File: ../train_ina/mfcc/Alvin_S0003.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR TIGA LINGKARAN SENT-END  ==  [252 frames] -59.5964 [Ac=-15018.3 LM=0.0] (Act=10.0)
+Aligning File: ../train_ina/mfcc/Alvin_S0004.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR EMPAT LINGKARAN SENT-END  ==  [264 frames] -60.2174 [Ac=-15897.4 LM=0.0] (Act=10.3)
+Aligning File: ../train_ina/mfcc/Alvin_S0005.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR LIMA LINGKARAN SENT-END  ==  [280 frames] -58.5551 [Ac=-16395.4 LM=0.0] (Act=10.1)
+Aligning File: ../train_ina/mfcc/Alvin_S0006.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR SATU KOTAK SENT-END  ==  [292 frames] -55.7480 [Ac=-16278.4 LM=0.0] (Act=7.6)
+Aligning File: ../train_ina/mfcc/Alvin_S0007.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR DUA KOTAK SENT-END  ==  [253 frames] -56.3169 [Ac=-14248.2 LM=0.0] (Act=7.8)
+Aligning File: ../train_ina/mfcc/Alvin_S0008.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR TIGA KOTAK SENT-END  ==  [241 frames] -59.1127 [Ac=-14246.2 LM=0.0] (Act=8.3)
+Aligning File: ../train_ina/mfcc/Alvin_S0009.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR EMPAT KOTAK SENT-END  ==  [247 frames] -58.3410 [Ac=-14410.2 LM=0.0] (Act=9.2)
+Aligning File: ../train_ina/mfcc/Alvin_S0010.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR LIMA KOTAK SENT-END  ==  [267 frames] -56.7192 [Ac=-15144.0 LM=0.0] (Act=8.5)
+Aligning File: ../train_ina/mfcc/Alvin_S0011.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR SATU SEGITIGA SENT-END  ==  [259 frames] -59.3235 [Ac=-15364.8 LM=0.0] (Act=8.4)
+Aligning File: ../train_ina/mfcc/Alvin_S0012.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR DUA SEGITIGA SENT-END  ==  [255 frames] -60.6316 [Ac=-15461.1 LM=0.0] (Act=8.9)
+Aligning File: ../train_ina/mfcc/Alvin_S0013.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR TIGA SEGITIGA SENT-END  ==  [252 frames] -61.9873 [Ac=-15620.8 LM=0.0] (Act=10.0)
+Aligning File: ../train_ina/mfcc/Alvin_S0014.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR LIMA SEGITIGA SENT-END  ==  [264 frames] -58.4736 [Ac=-15437.0 LM=0.0] (Act=9.0)
+Aligning File: ../train_ina/mfcc/Alvin_S0015.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR SATU TRAPESIUM SENT-END  ==  [261 frames] -59.4133 [Ac=-15506.9 LM=0.0] (Act=9.0)
+Aligning File: ../train_ina/mfcc/Alvin_S0016.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR DUA TRAPESIUM SENT-END  ==  [294 frames] -59.3908 [Ac=-17460.9 LM=0.0] (Act=8.4)
+Aligning File: ../train_ina/mfcc/Alvin_S0017.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR TIGA TRAPESIUM SENT-END  ==  [261 frames] -59.8442 [Ac=-15619.3 LM=0.0] (Act=9.2)
+Aligning File: ../train_ina/mfcc/Alvin_S0018.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR EMPAT TRAPESIUM SENT-END  ==  [262 frames] -58.0346 [Ac=-15205.1 LM=0.0] (Act=8.9)
+Aligning File: ../train_ina/mfcc/Alvin_S0019.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END ATUR TAMPILAN SEMAKIN BESAR SENT-END  ==  [264 frames] -63.4788 [Ac=-16758.4 LM=0.0] (Act=13.6)
+Aligning File: ../train_ina/mfcc/Alvin_S0020.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END ATUR TAMPILAN SEMAKIN KECIL SENT-END  ==  [303 frames] -62.1549 [Ac=-18832.9 LM=0.0] (Act=14.2)
+Aligning File: ../train_ina/mfcc/Alvin_S0021.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI LINGKARAN MERAH SENT-END  ==  [261 frames] -58.7669 [Ac=-15338.2 LM=0.0] (Act=11.5)
+Aligning File: ../train_ina/mfcc/Alvin_S0022.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI LINGKARAN HIJAU SENT-END  ==  [259 frames] -59.0124 [Ac=-15284.2 LM=0.0] (Act=10.8)
+Aligning File: ../train_ina/mfcc/Alvin_S0023.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI LINGKARAN BIRU SENT-END  ==  [285 frames] -57.1017 [Ac=-16274.0 LM=0.0] (Act=9.3)
+Aligning File: ../train_ina/mfcc/Alvin_S0024.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI KOTAK MERAH SENT-END  ==  [274 frames] -58.1239 [Ac=-15925.9 LM=0.0] (Act=10.2)
+Aligning File: ../train_ina/mfcc/Alvin_S0025.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI KOTAK HIJAU SENT-END  ==  [256 frames] -57.5152 [Ac=-14723.9 LM=0.0] (Act=8.6)
+Aligning File: ../train_ina/mfcc/Alvin_S0026.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI KOTAK BIRU SENT-END  ==  [270 frames] -56.5809 [Ac=-15276.8 LM=0.0] (Act=7.4)
+Aligning File: ../train_ina/mfcc/Alvin_S0027.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI SEGITIGA HIJAU SENT-END  ==  [298 frames] -58.7045 [Ac=-17493.9 LM=0.0] (Act=11.2)
+Aligning File: ../train_ina/mfcc/Alvin_S0028.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI SEGITIGA BIRU SENT-END  ==  [220 frames] -63.2817 [Ac=-13922.0 LM=0.0] (Act=11.7)
+Aligning File: ../train_ina/mfcc/Alvin_S0029.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI TRAPESIUM MERAH SENT-END  ==  [282 frames] -59.0524 [Ac=-16652.8 LM=0.0] (Act=9.9)
+Aligning File: ../train_ina/mfcc/Alvin_S0030.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI TRAPESIUM HIJAU SENT-END  ==  [300 frames] -60.0509 [Ac=-18015.3 LM=0.0] (Act=10.1)
+Aligning File: ../train_ina/mfcc/Alvin_S0031.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI TRAPESIUM BIRU SENT-END  ==  [265 frames] -58.5593 [Ac=-15518.2 LM=0.0] (Act=9.1)
+Aligning File: ../train_ina/mfcc/Alvin_S0032.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HAPUS LINGKARAN SENT-END  ==  [264 frames] -60.5372 [Ac=-15981.8 LM=0.0] (Act=8.4)
+Aligning File: ../train_ina/mfcc/Alvin_S0033.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HAPUS KOTAK SENT-END  ==  [222 frames] -57.2283 [Ac=-12704.7 LM=0.0] (Act=7.5)
+Aligning File: ../train_ina/mfcc/Alvin_S0034.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HAPUS SEGITIGA SENT-END  ==  [264 frames] -58.4002 [Ac=-15417.6 LM=0.0] (Act=7.4)
+Aligning File: ../train_ina/mfcc/Edwin_S0001.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR SATU LINGKARAN SENT-END  ==  [277 frames] -59.9679 [Ac=-16611.1 LM=0.0] (Act=10.6)
+Aligning File: ../train_ina/mfcc/Edwin_S0002.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR DUA LINGKARAN SENT-END  ==  [300 frames] -58.4744 [Ac=-17542.3 LM=0.0] (Act=9.6)
+Aligning File: ../train_ina/mfcc/Edwin_S0003.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR TIGA LINGKARAN SENT-END  ==  [259 frames] -58.3510 [Ac=-15112.9 LM=0.0] (Act=10.6)
+Aligning File: ../train_ina/mfcc/Edwin_S0004.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR EMPAT LINGKARAN SENT-END  ==  [233 frames] -61.4229 [Ac=-14311.5 LM=0.0] (Act=11.9)
+Aligning File: ../train_ina/mfcc/Edwin_S0005.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR LIMA LINGKARAN SENT-END  ==  [264 frames] -56.7129 [Ac=-14972.2 LM=0.0] (Act=11.5)
+Aligning File: ../train_ina/mfcc/Edwin_S0006.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR SATU KOTAK SENT-END  ==  [291 frames] -56.9302 [Ac=-16566.7 LM=0.0] (Act=8.9)
+Aligning File: ../train_ina/mfcc/Edwin_S0007.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR DUA KOTAK SENT-END  ==  [279 frames] -57.4774 [Ac=-16036.2 LM=0.0] (Act=8.6)
+Aligning File: ../train_ina/mfcc/Edwin_S0008.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR TIGA KOTAK SENT-END  ==  [261 frames] -57.3311 [Ac=-14963.4 LM=0.0] (Act=9.2)
+Aligning File: ../train_ina/mfcc/Edwin_S0009.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR EMPAT KOTAK SENT-END  ==  [300 frames] -57.0835 [Ac=-17125.0 LM=0.0] (Act=9.7)
+Aligning File: ../train_ina/mfcc/Edwin_S0010.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR LIMA KOTAK SENT-END  ==  [237 frames] -59.2866 [Ac=-14050.9 LM=0.0] (Act=10.4)
+Aligning File: ../train_ina/mfcc/Edwin_S0011.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR SATU SEGITIGA SENT-END  ==  [262 frames] -61.0797 [Ac=-16002.9 LM=0.0] (Act=9.2)
+Aligning File: ../train_ina/mfcc/Edwin_S0012.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR DUA SEGITIGA SENT-END  ==  [295 frames] -57.2635 [Ac=-16892.7 LM=0.0] (Act=7.8)
+Aligning File: ../train_ina/mfcc/Edwin_S0013.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR TIGA SEGITIGA SENT-END  ==  [294 frames] -63.5685 [Ac=-18689.1 LM=0.0] (Act=11.8)
+Aligning File: ../train_ina/mfcc/Edwin_S0014.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR LIMA SEGITIGA SENT-END  ==  [321 frames] -58.8029 [Ac=-18875.7 LM=0.0] (Act=9.1)
+Aligning File: ../train_ina/mfcc/Edwin_S0015.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR SATU TRAPESIUM SENT-END  ==  [337 frames] -58.3394 [Ac=-19660.4 LM=0.0] (Act=8.8)
+Aligning File: ../train_ina/mfcc/Edwin_S0016.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR DUA TRAPESIUM SENT-END  ==  [261 frames] -57.5900 [Ac=-15031.0 LM=0.0] (Act=9.6)
+Aligning File: ../train_ina/mfcc/Edwin_S0017.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR TIGA TRAPESIUM SENT-END  ==  [272 frames] -62.5232 [Ac=-17006.3 LM=0.0] (Act=10.6)
+Aligning File: ../train_ina/mfcc/Edwin_S0018.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR EMPAT TRAPESIUM SENT-END  ==  [231 frames] -62.3052 [Ac=-14392.5 LM=0.0] (Act=11.8)
+Aligning File: ../train_ina/mfcc/Edwin_S0019.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END ATUR TAMPILAN SEMAKIN BESAR SENT-END  ==  [376 frames] -59.6572 [Ac=-22431.1 LM=0.0] (Act=11.1)
+Aligning File: ../train_ina/mfcc/Edwin_S0020.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END ATUR TAMPILAN SEMAKIN KECIL SENT-END  ==  [318 frames] -62.8797 [Ac=-19995.7 LM=0.0] (Act=12.9)
+Aligning File: ../train_ina/mfcc/Edwin_S0021.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI LINGKARAN MERAH SENT-END  ==  [277 frames] -57.3330 [Ac=-15881.2 LM=0.0] (Act=11.9)
+Aligning File: ../train_ina/mfcc/Edwin_S0022.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI LINGKARAN HIJAU SENT-END  ==  [360 frames] -61.1122 [Ac=-22000.4 LM=0.0] (Act=11.3)
+Aligning File: ../train_ina/mfcc/Edwin_S0023.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI LINGKARAN BIRU SENT-END  ==  [279 frames] -58.7228 [Ac=-16383.7 LM=0.0] (Act=10.9)
+Aligning File: ../train_ina/mfcc/Edwin_S0024.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI KOTAK MERAH SENT-END  ==  [267 frames] -58.8182 [Ac=-15704.4 LM=0.0] (Act=10.7)
+Aligning File: ../train_ina/mfcc/Edwin_S0025.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI KOTAK HIJAU SENT-END  ==  [304 frames] -60.2969 [Ac=-18330.3 LM=0.0] (Act=9.8)
+Aligning File: ../train_ina/mfcc/Edwin_S0026.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI KOTAK BIRU SENT-END  ==  [298 frames] -58.8864 [Ac=-17548.1 LM=0.0] (Act=9.4)
+Aligning File: ../train_ina/mfcc/Edwin_S0027.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI SEGITIGA HIJAU SENT-END  ==  [259 frames] -65.7142 [Ac=-17020.0 LM=0.0] (Act=10.4)
+Aligning File: ../train_ina/mfcc/Edwin_S0028.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI SEGITIGA BIRU SENT-END  ==  [295 frames] -63.2674 [Ac=-18663.9 LM=0.0] (Act=10.1)
+Aligning File: ../train_ina/mfcc/Edwin_S0029.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI TRAPESIUM MERAH SENT-END  ==  [345 frames] -59.8692 [Ac=-20654.9 LM=0.0] (Act=11.4)
+Aligning File: ../train_ina/mfcc/Edwin_S0030.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI TRAPESIUM HIJAU SENT-END  ==  [316 frames] -60.7120 [Ac=-19185.0 LM=0.0] (Act=11.3)
+Aligning File: ../train_ina/mfcc/Edwin_S0031.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI TRAPESIUM BIRU SENT-END  ==  [307 frames] -60.2351 [Ac=-18492.2 LM=0.0] (Act=10.2)
+Aligning File: ../train_ina/mfcc/Edwin_S0032.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HAPUS LINGKARAN SENT-END  ==  [193 frames] -59.4763 [Ac=-11478.9 LM=0.0] (Act=8.6)
+Aligning File: ../train_ina/mfcc/Edwin_S0033.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HAPUS KOTAK SENT-END  ==  [259 frames] -58.8240 [Ac=-15235.4 LM=0.0] (Act=7.6)
+Aligning File: ../train_ina/mfcc/Edwin_S0034.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HAPUS SEGITIGA SENT-END  ==  [270 frames] -60.2866 [Ac=-16277.4 LM=0.0] (Act=7.5)
+Aligning File: ../train_ina/mfcc/Albert_S0001.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR SATU LINGKARAN SENT-END  ==  [242 frames] -60.1381 [Ac=-14553.4 LM=0.0] (Act=8.7)
+Aligning File: ../train_ina/mfcc/Albert_S0002.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR DUA LINGKARAN SENT-END  ==  [301 frames] -58.1023 [Ac=-17488.8 LM=0.0] (Act=8.8)
+Aligning File: ../train_ina/mfcc/Albert_S0003.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR TIGA LINGKARAN SENT-END  ==  [294 frames] -60.2236 [Ac=-17705.7 LM=0.0] (Act=10.3)
+Aligning File: ../train_ina/mfcc/Albert_S0004.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR EMPAT LINGKARAN SENT-END  ==  [239 frames] -61.2306 [Ac=-14634.1 LM=0.0] (Act=9.7)
+Aligning File: ../train_ina/mfcc/Albert_S0005.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR LIMA LINGKARAN SENT-END  ==  [325 frames] -56.2256 [Ac=-18273.3 LM=0.0] (Act=9.4)
+Aligning File: ../train_ina/mfcc/Albert_S0006.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR SATU KOTAK SENT-END  ==  [228 frames] -58.7952 [Ac=-13405.3 LM=0.0] (Act=10.8)
+Aligning File: ../train_ina/mfcc/Albert_S0007.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR DUA KOTAK SENT-END  ==  [246 frames] -57.0311 [Ac=-14029.7 LM=0.0] (Act=7.8)
+Aligning File: ../train_ina/mfcc/Albert_S0008.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR TIGA KOTAK SENT-END  ==  [300 frames] -55.9436 [Ac=-16783.1 LM=0.0] (Act=8.4)
+Aligning File: ../train_ina/mfcc/Albert_S0009.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR EMPAT KOTAK SENT-END  ==  [282 frames] -57.8428 [Ac=-16311.7 LM=0.0] (Act=9.7)
+Aligning File: ../train_ina/mfcc/Albert_S0010.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR LIMA KOTAK SENT-END  ==  [267 frames] -56.5939 [Ac=-15110.6 LM=0.0] (Act=7.6)
+Aligning File: ../train_ina/mfcc/Albert_S0011.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR SATU SEGITIGA SENT-END  ==  [351 frames] -58.7253 [Ac=-20612.6 LM=0.0] (Act=9.4)
+Aligning File: ../train_ina/mfcc/Albert_S0012.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR DUA SEGITIGA SENT-END  ==  [297 frames] -60.4340 [Ac=-17948.9 LM=0.0] (Act=11.0)
+Aligning File: ../train_ina/mfcc/Albert_S0013.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR TIGA SEGITIGA SENT-END  ==  [336 frames] -60.5187 [Ac=-20334.3 LM=0.0] (Act=9.7)
+Aligning File: ../train_ina/mfcc/Albert_S0014.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR LIMA SEGITIGA SENT-END  ==  [327 frames] -59.6405 [Ac=-19502.4 LM=0.0] (Act=8.5)
+Aligning File: ../train_ina/mfcc/Albert_S0015.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR SATU TRAPESIUM SENT-END  ==  [301 frames] -60.4799 [Ac=-18204.5 LM=0.0] (Act=9.2)
+Aligning File: ../train_ina/mfcc/Albert_S0016.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR DUA TRAPESIUM SENT-END  ==  [294 frames] -61.1461 [Ac=-17977.0 LM=0.0] (Act=8.5)
+Aligning File: ../train_ina/mfcc/Albert_S0017.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR TIGA TRAPESIUM SENT-END  ==  [328 frames] -57.5395 [Ac=-18872.9 LM=0.0] (Act=10.9)
+Aligning File: ../train_ina/mfcc/Albert_S0018.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR EMPAT TRAPESIUM SENT-END  ==  [324 frames] -58.6856 [Ac=-19014.1 LM=0.0] (Act=9.6)
+Aligning File: ../train_ina/mfcc/Albert_S0019.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END ATUR TAMPILAN SEMAKIN BESAR SENT-END  ==  [284 frames] -65.1528 [Ac=-18503.4 LM=0.0] (Act=14.4)
+Aligning File: ../train_ina/mfcc/Albert_S0020.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END ATUR TAMPILAN SEMAKIN KECIL SENT-END  ==  [355 frames] -62.2489 [Ac=-22098.3 LM=0.0] (Act=12.9)
+Aligning File: ../train_ina/mfcc/Albert_S0021.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI LINGKARAN MERAH SENT-END  ==  [303 frames] -58.0024 [Ac=-17574.7 LM=0.0] (Act=12.7)
+Aligning File: ../train_ina/mfcc/Albert_S0022.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI LINGKARAN HIJAU SENT-END  ==  [306 frames] -57.9347 [Ac=-17728.0 LM=0.0] (Act=10.1)
+Aligning File: ../train_ina/mfcc/Albert_S0023.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI LINGKARAN BIRU SENT-END  ==  [280 frames] -57.5844 [Ac=-16123.6 LM=0.0] (Act=13.6)
+Aligning File: ../train_ina/mfcc/Albert_S0024.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI KOTAK MERAH SENT-END  ==  [279 frames] -59.1009 [Ac=-16489.1 LM=0.0] (Act=10.6)
+Aligning File: ../train_ina/mfcc/Albert_S0025.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI KOTAK HIJAU SENT-END  ==  [291 frames] -57.9311 [Ac=-16858.0 LM=0.0] (Act=10.9)
+Aligning File: ../train_ina/mfcc/Albert_S0026.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI KOTAK BIRU SENT-END  ==  [282 frames] -58.2728 [Ac=-16432.9 LM=0.0] (Act=8.1)
+Aligning File: ../train_ina/mfcc/Albert_S0027.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI SEGITIGA HIJAU SENT-END  ==  [268 frames] -62.9157 [Ac=-16861.4 LM=0.0] (Act=11.8)
+Aligning File: ../train_ina/mfcc/Albert_S0028.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI SEGITIGA BIRU SENT-END  ==  [315 frames] -58.5650 [Ac=-18448.0 LM=0.0] (Act=11.8)
+Aligning File: ../train_ina/mfcc/Albert_S0029.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI TRAPESIUM MERAH SENT-END  ==  [285 frames] -59.8440 [Ac=-17055.6 LM=0.0] (Act=10.2)
+Aligning File: ../train_ina/mfcc/Albert_S0030.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI TRAPESIUM HIJAU SENT-END  ==  [291 frames] -60.1508 [Ac=-17503.9 LM=0.0] (Act=10.1)
+Aligning File: ../train_ina/mfcc/Albert_S0031.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI TRAPESIUM BIRU SENT-END  ==  [310 frames] -59.8425 [Ac=-18551.2 LM=0.0] (Act=9.3)
+Aligning File: ../train_ina/mfcc/Albert_S0032.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HAPUS LINGKARAN SENT-END  ==  [279 frames] -55.7353 [Ac=-15550.2 LM=0.0] (Act=8.5)
+Aligning File: ../train_ina/mfcc/Albert_S0033.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HAPUS KOTAK SENT-END  ==  [276 frames] -57.6423 [Ac=-15909.3 LM=0.0] (Act=7.7)
+Aligning File: ../train_ina/mfcc/Albert_S0034.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HAPUS SEGITIGA SENT-END  ==  [259 frames] -57.7430 [Ac=-14955.4 LM=0.0] (Act=8.4)
+Aligning File: ../train_ina/mfcc/Kevin_S0001.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR SATU LINGKARAN SENT-END  ==  [300 frames] -56.3721 [Ac=-16911.6 LM=0.0] (Act=8.1)
+Aligning File: ../train_ina/mfcc/Kevin_S0002.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR DUA LINGKARAN SENT-END  ==  [274 frames] -57.9685 [Ac=-15883.4 LM=0.0] (Act=9.1)
+Aligning File: ../train_ina/mfcc/Kevin_S0003.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR TIGA LINGKARAN SENT-END  ==  [304 frames] -58.5644 [Ac=-17803.6 LM=0.0] (Act=8.7)
+Aligning File: ../train_ina/mfcc/Kevin_S0004.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR EMPAT LINGKARAN SENT-END  ==  [243 frames] -58.9960 [Ac=-14336.0 LM=0.0] (Act=9.6)
+Aligning File: ../train_ina/mfcc/Kevin_S0005.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR LIMA LINGKARAN SENT-END  ==  [273 frames] -58.9093 [Ac=-16082.2 LM=0.0] (Act=9.3)
+Aligning File: ../train_ina/mfcc/Kevin_S0006.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR SATU KOTAK SENT-END  ==  [232 frames] -59.6182 [Ac=-13831.4 LM=0.0] (Act=8.7)
+Aligning File: ../train_ina/mfcc/Kevin_S0007.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR DUA KOTAK SENT-END  ==  [214 frames] -58.5867 [Ac=-12537.6 LM=0.0] (Act=8.2)
+Aligning File: ../train_ina/mfcc/Kevin_S0008.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR TIGA KOTAK SENT-END  ==  [235 frames] -57.2397 [Ac=-13451.3 LM=0.0] (Act=7.4)
+Aligning File: ../train_ina/mfcc/Kevin_S0009.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR EMPAT KOTAK SENT-END  ==  [222 frames] -58.4554 [Ac=-12977.1 LM=0.0] (Act=9.6)
+Aligning File: ../train_ina/mfcc/Kevin_S0010.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR LIMA KOTAK SENT-END  ==  [267 frames] -56.7752 [Ac=-15159.0 LM=0.0] (Act=7.8)
+Aligning File: ../train_ina/mfcc/Kevin_S0011.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR SATU SEGITIGA SENT-END  ==  [235 frames] -60.9850 [Ac=-14331.5 LM=0.0] (Act=8.6)
+Aligning File: ../train_ina/mfcc/Kevin_S0012.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR DUA SEGITIGA SENT-END  ==  [240 frames] -60.9958 [Ac=-14639.0 LM=0.0] (Act=8.3)
+Aligning File: ../train_ina/mfcc/Kevin_S0013.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR TIGA SEGITIGA SENT-END  ==  [244 frames] -61.7597 [Ac=-15069.4 LM=0.0] (Act=9.9)
+Aligning File: ../train_ina/mfcc/Kevin_S0014.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR LIMA SEGITIGA SENT-END  ==  [234 frames] -62.2255 [Ac=-14560.8 LM=0.0] (Act=9.1)
+Aligning File: ../train_ina/mfcc/Kevin_S0015.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR SATU TRAPESIUM SENT-END  ==  [261 frames] -63.4192 [Ac=-16552.4 LM=0.0] (Act=9.2)
+Aligning File: ../train_ina/mfcc/Kevin_S0016.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR DUA TRAPESIUM SENT-END  ==  [268 frames] -57.4754 [Ac=-15403.4 LM=0.0] (Act=8.4)
+Aligning File: ../train_ina/mfcc/Kevin_S0017.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR TIGA TRAPESIUM SENT-END  ==  [246 frames] -59.3475 [Ac=-14599.5 LM=0.0] (Act=9.0)
+Aligning File: ../train_ina/mfcc/Kevin_S0018.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END GAMBAR EMPAT TRAPESIUM SENT-END  ==  [259 frames] -57.7118 [Ac=-14947.4 LM=0.0] (Act=9.5)
+Aligning File: ../train_ina/mfcc/Kevin_S0019.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END ATUR TAMPILAN SEMAKIN BESAR SENT-END  ==  [306 frames] -64.3836 [Ac=-19701.4 LM=0.0] (Act=13.6)
+Aligning File: ../train_ina/mfcc/Kevin_S0020.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END ATUR TAMPILAN SEMAKIN KECIL SENT-END  ==  [291 frames] -62.7721 [Ac=-18266.7 LM=0.0] (Act=14.1)
+Aligning File: ../train_ina/mfcc/Kevin_S0021.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI LINGKARAN MERAH SENT-END  ==  [267 frames] -59.2147 [Ac=-15810.3 LM=0.0] (Act=12.7)
+Aligning File: ../train_ina/mfcc/Kevin_S0022.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI LINGKARAN HIJAU SENT-END  ==  [282 frames] -61.4202 [Ac=-17320.5 LM=0.0] (Act=11.2)
+Aligning File: ../train_ina/mfcc/Kevin_S0023.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI LINGKARAN BIRU SENT-END  ==  [259 frames] -60.0373 [Ac=-15549.7 LM=0.0] (Act=11.1)
+Aligning File: ../train_ina/mfcc/Kevin_S0024.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI KOTAK MERAH SENT-END  ==  [292 frames] -59.2913 [Ac=-17313.1 LM=0.0] (Act=10.1)
+Aligning File: ../train_ina/mfcc/Kevin_S0025.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI KOTAK HIJAU SENT-END  ==  [300 frames] -59.7291 [Ac=-17918.7 LM=0.0] (Act=9.1)
+Aligning File: ../train_ina/mfcc/Kevin_S0026.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI KOTAK BIRU SENT-END  ==  [297 frames] -59.8985 [Ac=-17789.8 LM=0.0] (Act=9.1)
+Aligning File: ../train_ina/mfcc/Kevin_S0027.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI SEGITIGA HIJAU SENT-END  ==  [286 frames] -62.7651 [Ac=-17950.8 LM=0.0] (Act=9.8)
+Aligning File: ../train_ina/mfcc/Kevin_S0028.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI SEGITIGA BIRU SENT-END  ==  [309 frames] -60.6606 [Ac=-18744.1 LM=0.0] (Act=9.6)
+Aligning File: ../train_ina/mfcc/Kevin_S0029.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI TRAPESIUM MERAH SENT-END  ==  [297 frames] -59.7456 [Ac=-17744.4 LM=0.0] (Act=10.4)
+Aligning File: ../train_ina/mfcc/Kevin_S0030.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI TRAPESIUM HIJAU SENT-END  ==  [285 frames] -61.6217 [Ac=-17562.2 LM=0.0] (Act=10.4)
+Aligning File: ../train_ina/mfcc/Kevin_S0031.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END WARNAI TRAPESIUM BIRU SENT-END  ==  [270 frames] -59.4628 [Ac=-16054.9 LM=0.0] (Act=10.1)
+Aligning File: ../train_ina/mfcc/Kevin_S0032.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HAPUS LINGKARAN SENT-END  ==  [252 frames] -57.4978 [Ac=-14489.4 LM=0.0] (Act=8.3)
+Aligning File: ../train_ina/mfcc/Kevin_S0033.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HAPUS KOTAK SENT-END  ==  [210 frames] -59.4915 [Ac=-12493.2 LM=0.0] (Act=8.4)
+Aligning File: ../train_ina/mfcc/Kevin_S0034.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HAPUS SEGITIGA SENT-END  ==  [219 frames] -61.0449 [Ac=-13368.8 LM=0.0] (Act=9.4)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+
