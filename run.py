@@ -17,7 +17,7 @@ def writeCommand(line):
 
     print(data)
 
-if(len(sys.argv) > 0):
+if(len(sys.argv) > 1):
   command = ['julius-4.3.1', '-input', 'rawfile', '-filelist', 'list.txt', '-C', 'voxforge/manual/ina.jconf']
   process = subprocess.Popen(command, stdout=subprocess.PIPE, shell=True);
 

@@ -46,6 +46,7 @@ Stat: outprob_init: state-level mixture PDFs, use calc_mix()
 Stat: addlog: generating addlog table (size = 1953 kB)
 Stat: addlog: addlog table generated
 STAT: [4] prepare MFCC storage(s)
+STAT: [5] prepare for real-time decoding
 STAT: All init successfully done
 
 STAT: ###### initialize input device
@@ -103,7 +104,9 @@ Speech Analysis Module(s)
 
     spectral subtraction = off
 
- cep. mean normalization = yes, with per-utterance self mean
+ cep. mean normalization = yes, real-time MAP-CMN, updating mean with last 0.0 sec. input
+  initial mean from file = N/A
+   beginning data weight = 100.00
  cep. var. normalization = no
 
 	 base setup from = Julius defaults
@@ -195,7 +198,7 @@ Recognizer(s)
 ------------------------------------------------------------
 Decoding algorithm:
 
-	1st pass input processing = buffered, batch
+	1st pass input processing = real time, on-the-fly
 	1st pass method = 1-best approx. generating indexed trellis
 	output word confidence measure based on search-time scores
 
@@ -204,12 +207,17 @@ FrontEnd:
 
  Input stream:
 	             input type = waveform
-	           input source = waveform file
-	          input filelist = list.txt
-	          sampling freq. = 16000 Hz required
+	           input source = microphone
+	    device API          = default
+	          sampling freq. = 16000 Hz
 	         threaded A/D-in = not supported (live input may be dropped)
 	   zero frames stripping = on
-	         silence cutting = off
+	         silence cutting = on
+	             level thres = 4000 / 32767
+	         zerocross thres = 60 / sec.
+	             head margin = 300 msec.
+	             tail margin = 400 msec.
+	              chunk size = 1000 samples
 	    long-term DC removal = off
 	    long-term DC removal = off
 	    level scaling factor = 1.00 (disabled)
@@ -220,9 +228,19 @@ FrontEnd:
 
 Notice for feature extraction (01),
 	*************************************************************
-	* Cepstral mean normalization for batch decoding:           *
-	* per-utterance mean will be computed and applied.          *
+	* Cepstral mean normalization for real-time decoding:       *
+	* NOTICE: The first input may not be recognized, since      *
+	*         no initial mean is available on startup.          *
 	*************************************************************
-Stat: adin_file: input speechfile: Alvin_S0001.wav
-STAT: 41520 samples (2.60 sec.)
-STAT: ### speech analysis (waveform -> MFCC)
+Stat: adin_portaudio: audio cycle buffer length = 256000 bytes
+Stat: adin_portaudio: sound capture devices:
+  1 [MME: Microsoft Sound Mapper - Input]
+  2 [MME: Microphone (Realtek High Defini]
+  5 [Windows DirectSound: Primary Sound Capture Driver]
+  6 [Windows DirectSound: Microphone (Realtek High Definition Audio)]
+Stat: adin_portaudio: APIs: DirectSound MME
+Stat: adin_portaudio: -- DirectSound selected
+Stat: adin_portaudio: [Windows DirectSound: Primary Sound Capture Driver]
+Stat: adin_portaudio: (you can specify device by "PORTAUDIO_DEV_NUM=number"
+Stat: adin_portaudio: try to set default low latency from portaudio: 0 msec
+Stat: adin_portaudio: latency was set to 0.000000 msec
